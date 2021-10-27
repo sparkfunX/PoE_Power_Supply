@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -196,13 +196,20 @@
 <board>
 <plain>
 <text x="13.97" y="1.27" size="1.27" layer="16" font="vector" ratio="20" rot="SMR0" align="center">v10</text>
-<text x="62.23" y="-8.89" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
+<text x="17.78" y="-20.32" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
 <wire x1="27.94" y1="0" x2="27.94" y2="57.15" width="0.05" layer="20"/>
 <wire x1="27.94" y1="57.15" x2="0" y2="57.15" width="0.05" layer="20"/>
 <wire x1="0" y1="57.15" x2="0" y2="0" width="0.05" layer="20"/>
 <wire x1="27.94" y1="0" x2="0" y2="0" width="0.05" layer="20"/>
 <wire x1="11.935" y1="29.19" x2="1.968" y2="29.19" width="0.6" layer="46"/>
 <wire x1="25.905" y1="29.19" x2="15.938" y2="29.19" width="0.6" layer="46"/>
+<dimension x1="0" y1="0" x2="0" y2="57.15" x3="-6.35" y3="28.575" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="57.15" x2="27.94" y2="57.15" x3="13.97" y3="66.04" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="13.97" y1="50.8" x2="0" y2="50.8" x3="6.985" y3="62.23" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="21.844" y1="61.468" x2="21.844" y2="57.15" x3="31.242" y3="59.309" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="13.97" y2="0" x3="6.985" y3="-11.43" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="20.574" y1="-7.747" x2="20.574" y2="0" x3="31.75" y3="-3.8735" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="0" y2="2.54" x3="1.27" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3729,9 +3736,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$18" library="output" package="#POE#0" value="" x="26.67" y="45.72" smashed="yes" rot="R90"/>
 <element name="U$1" library="output" package="ETHERNET0" value="" x="13.97" y="19.86" smashed="yes" rot="MR0"/>
 <element name="U$2" library="output" package="#POE#0" value="" x="13.97" y="17.32" smashed="yes" rot="MR0"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="21.59" y="-17.78" smashed="yes">
-<attribute name="DESIGNER" value="" x="21.59" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="REV" value="" x="21.59" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-8.89" y="-20.32" smashed="yes">
+<attribute name="DESIGNER" value="" x="-8.89" y="-20.32" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="REV" value="" x="-8.89" y="-20.32" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="USB-A-S-NOSILK-FEMALE" value="USB_A_SMT_FEMALE_NS" x="13.97" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.112" y="-6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>

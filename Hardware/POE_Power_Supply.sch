@@ -10297,10 +10297,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="165.354" y="11.176" size="2.54" layer="94">N. Seidle</text>
 <text x="117.094" y="167.386" size="2.54" layer="94" font="vector" align="center">Power Over Ethernet</text>
 <text x="129.54" y="114.3" size="1.778" layer="97" font="vector" align="center">Dummy Load: 100mA</text>
-<text x="7.62" y="193.04" size="1.27" layer="91">Add PTC?</text>
-<text x="7.62" y="190.5" size="1.27" layer="91">~93ma</text>
-<text x="7.62" y="187.96" size="1.27" layer="91">VPP 20mV at 200kHz</text>
-<text x="7.62" y="185.42" size="1.27" layer="91">20mV at 40kHz</text>
 </plain>
 <instances>
 <instance part="C13" gate="G$1" x="195.58" y="144.78" smashed="yes">
@@ -10436,7 +10432,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="LOAD" gate="G$1" x="137.16" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="135.128" y="142.24" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="139.7" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND31" gate="1" x="137.16" y="121.92" smashed="yes">
 <attribute name="VALUE" x="137.16" y="121.666" size="1.778" layer="96" align="top-center"/>
@@ -10446,7 +10441,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="POE_LED" gate="G$1" x="147.32" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.288" y="139.954" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="149.86" y="134.62" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R11" gate="G$1" x="147.32" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.796" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>

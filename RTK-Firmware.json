@@ -1,9 +1,7 @@
 {
     "Configurations": [
         {
-            "Board": "ESP32_DEV",
             "Version": "2.6",
-            "Device": "30:C6:F7:24:AC:38",
             "URL": "https://github.com/sparkfun/SparkFun_RTK_Firmware_Binaries/raw/main/RTK_Surveyor_Firmware_v2_6.bin"
         }
     ]

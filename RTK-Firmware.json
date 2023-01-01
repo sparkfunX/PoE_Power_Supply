@@ -1,6 +1,10 @@
 {
     "Configurations": [
         {
+            "Version": "2.5",
+            "URL": "https://github.com/sparkfun/SparkFun_RTK_Firmware_Binaries/raw/main/RTK_Surveyor_Firmware_v2_5.bin"
+        },
+        {
             "Version": "2.6",
             "URL": "https://github.com/sparkfun/SparkFun_RTK_Firmware_Binaries/raw/main/RTK_Surveyor_Firmware_v2_6.bin"
         }
